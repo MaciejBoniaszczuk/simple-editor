@@ -6,11 +6,72 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $yellow;
   background: $violet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.header {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+.form__message {
+  width: 520px;
+  height: 288px;
+  border-radius: 15px;
+  padding: 32px;
+}
+
+.form__button--load {
+  border-radius: 0px;
+  border: none;
+  width: 96px;
+  height: 28px;
+  background: #3767AD;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  margin-right: 8px;
+}
+
+.form__button--save {
+  border-radius: 0px;
+  border: none;
+  width: 96px;
+  height: 28px;
+  background: #0E7305;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  margin-left: 8px;
+  color: white;
+}
+
+.form__actions {
+  display: flex;
+  justify-content: flex-end;
+
 }
