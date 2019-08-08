@@ -339,12 +339,13 @@ body {
   line-height: 64px;
   color: #FFFFFF; }
 
-#textarea {
+.form__message {
   width: 520px;
   height: 288px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  padding: 32px; }
 
-.load {
+.form__button--load {
   border-radius: 0px;
   border: none;
   width: 96px;
@@ -359,7 +360,7 @@ body {
   color: #FFFFFF;
   margin-right: 8px; }
 
-.save {
+.form__button--save {
   border-radius: 0px;
   border: none;
   width: 96px;
@@ -374,7 +375,7 @@ body {
   margin-left: 8px;
   color: white; }
 
-.buttons {
+.form__actions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
